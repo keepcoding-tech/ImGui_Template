@@ -1,3 +1,11 @@
+# User Settings
+/.vs
+*.user
+*.ini
+
+# Build
+/Binary
+
 # Prerequisites
 *.d
 

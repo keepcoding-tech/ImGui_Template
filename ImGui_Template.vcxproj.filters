@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{1a1272da-441b-47da-9a89-ee99345129a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{a3434c9b-5a66-45c6-a9af-045dafbf7ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\ImGui">
+      <UniqueIdentifier>{703ef34f-ef4b-4fad-ba0c-0c882cf07f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\GLFW">
+      <UniqueIdentifier>{445a0ab9-e993-4341-b2fd-7e5504a25c38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_demo.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_draw.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_tables.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_widgets.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Library Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\window_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\window_about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\comp_tool_bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\comp_side_bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\multi_language.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\window_preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Fonts\font_awesome.cpp">
+      <Filter>Resource Files\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\window_modal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\window_change_log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library\ImGui\imconfig.h">
+      <Filter>Library Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui.h">
+      <Filter>Library Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_impl_glfw.h">
+      <Filter>Library Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_impl_opengl3.h">
+      <Filter>Library Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Library Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ImGui\imgui_internal.h">
+      <Filter>Library Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\GLFW\glfw3.h">
+      <Filter>Library Files\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\GLFW\glfw3native.h">
+      <Filter>Library Files\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\window_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\window_about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\comp_tool_bar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\comp_side_bar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\multi_language.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\window_preferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Fonts\font_awesome.h">
+      <Filter>Resource Files\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\window_modal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\window_change_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
